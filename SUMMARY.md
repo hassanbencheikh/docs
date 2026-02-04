@@ -3,4 +3,4 @@
 ## Active Directory
 
 * [Reconnaissance](README.md)
-  * [DNS](active-directory/reconnaissance/dns.md)
+  * [Port scanning](active-directory/reconnaissance/port-scanning.md)
