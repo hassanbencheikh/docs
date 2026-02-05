@@ -1,0 +1,3 @@
+# Reconnaissance
+
+Reconnaissance in Active Directory (AD) is the `initial information-gathering` phase in penetration testing or attacks, where pentesters or adversaries enumerate domain objects like users, groups, computers, and permissions using protocols such as **LDAP**. Without credentials (null/anonymous sessions), this is limited externally to OSINT (e.g., LinkedIn for usernames, **DNS** recon) and unauthenticated protocols like LDAP anonymous binds, **SMB** null sessions, or **RPC** <mark style="color:$danger;">if not hardened by Group Policy</mark>—yielding basic user lists or shares via tools like ldapsearch or enum4linux. Even low-privileged domain users can perform much of this due to default read access on AD objects.
