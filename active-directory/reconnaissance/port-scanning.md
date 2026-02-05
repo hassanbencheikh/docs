@@ -29,6 +29,6 @@ nmap -p- $ip --min-rate 1000 -nv
 nmap -p53,88 $ip -sCV --min-rate 1000 -nv
 ```
 
-* References
+#### Resources
 
 [https://www.manageengine.com/products/ad-manager/blog/active-directory-firewall-ports.html](https://www.manageengine.com/products/ad-manager/blog/active-directory-firewall-ports.html)
