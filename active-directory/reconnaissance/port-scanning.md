@@ -21,9 +21,13 @@ Active Directory (AD) ports are specific network communication endpoints that en
 `3269/TCP` (GC SSL)\
 `9389/TCP` (AD Web Services)
 
+* open ports
+
 ```bash
 nmap -p- $ip --min-rate 1000 -nv
 ```
+
+* Default scripts and version
 
 ```shellscript
 nmap -p53,88 $ip -sCV --min-rate 1000 -nv
